@@ -1,0 +1,58 @@
+\hypertarget{class_route}{}\section{Route Class Reference}
+\label{class_route}\index{Route@{Route}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_route_ad5f4fe1d852768a60246dae8a4862699}{}\hyperlink{class_route_ad5f4fe1d852768a60246dae8a4862699}{Route} (const unsigned int \&amount\+Items)\label{class_route_ad5f4fe1d852768a60246dae8a4862699}
+
+\begin{DoxyCompactList}\small\item\em конструктор маршрута по умолчанию \end{DoxyCompactList}\item 
+\hypertarget{class_route_a0f5d78e43214bafb3d973bae07381f58}{}\hyperlink{class_route_a0f5d78e43214bafb3d973bae07381f58}{Route} (const \hyperlink{class_item}{Item} \&item)\label{class_route_a0f5d78e43214bafb3d973bae07381f58}
+
+\begin{DoxyCompactList}\small\item\em контруктор маршрута по количеству экскурсиооных объектов \end{DoxyCompactList}\item 
+\hypertarget{class_route_a4d2d48d0fc726775b1f5309a56a8ceef}{}\hyperlink{class_route_a4d2d48d0fc726775b1f5309a56a8ceef}{Route} (const unsigned int \&amount\+Items, \hyperlink{class_item}{Item} $\ast$items)\label{class_route_a4d2d48d0fc726775b1f5309a56a8ceef}
+
+\begin{DoxyCompactList}\small\item\em конструктор маршрута по экскурсиооному объекту \end{DoxyCompactList}\item 
+\hypertarget{class_route_a12e053892cff175232b9df34b8bb9d0c}{}\hyperlink{class_route_a12e053892cff175232b9df34b8bb9d0c}{Route} (const \hyperlink{class_route}{Route} \&route)\label{class_route_a12e053892cff175232b9df34b8bb9d0c}
+
+\begin{DoxyCompactList}\small\item\em конструктор маршрута по экскурсионному объекту и их количеству \end{DoxyCompactList}\item 
+\hypertarget{class_route_a41212532f2bce3298d8f9468f82c62ab}{}\hyperlink{class_route_a41212532f2bce3298d8f9468f82c62ab}{$\sim$\+Route} ()\label{class_route_a41212532f2bce3298d8f9468f82c62ab}
+
+\begin{DoxyCompactList}\small\item\em копирующий конструктор маршрута \end{DoxyCompactList}\item 
+\hypertarget{class_route_ada2034f9fafbe545ee52cd508c2857c3}{}void \hyperlink{class_route_ada2034f9fafbe545ee52cd508c2857c3}{set\+Amount\+Items} (const unsigned int \&amount\+Items)\label{class_route_ada2034f9fafbe545ee52cd508c2857c3}
+
+\begin{DoxyCompactList}\small\item\em деструктор маршрута \end{DoxyCompactList}\item 
+\hypertarget{class_route_af4c2579eea10597f0f13d4fd3857b97f}{}void \hyperlink{class_route_af4c2579eea10597f0f13d4fd3857b97f}{set\+Amount\+Items} (std\+::istream \&is)\label{class_route_af4c2579eea10597f0f13d4fd3857b97f}
+
+\begin{DoxyCompactList}\small\item\em ввод количества экскурсионных объектов \end{DoxyCompactList}\item 
+\hypertarget{class_route_a9902364fc0bc42d74903895d6f69aacf}{}void \hyperlink{class_route_a9902364fc0bc42d74903895d6f69aacf}{set\+Item} (const unsigned int \&n, const \hyperlink{class_item}{Item} \&item)\label{class_route_a9902364fc0bc42d74903895d6f69aacf}
+
+\begin{DoxyCompactList}\small\item\em ввод количества экскурсионных объектов в поток \end{DoxyCompactList}\item 
+\hypertarget{class_route_af01e53eee5dee6ef8285ac651d39b379}{}\hyperlink{class_item}{Item} \& \hyperlink{class_route_af01e53eee5dee6ef8285ac651d39b379}{get\+Item} (const unsigned int \&n)\label{class_route_af01e53eee5dee6ef8285ac651d39b379}
+
+\begin{DoxyCompactList}\small\item\em ввод данных экскурсионного объекта \end{DoxyCompactList}\item 
+\hypertarget{class_route_a99bd00c3c6e2f1307a0375e85649c181}{}tm \hyperlink{class_route_a99bd00c3c6e2f1307a0375e85649c181}{get\+Time\+Start} () const \label{class_route_a99bd00c3c6e2f1307a0375e85649c181}
+
+\begin{DoxyCompactList}\small\item\em вывод данных экскурсиооного объекта \end{DoxyCompactList}\item 
+\hypertarget{class_route_ab9bea74aecfe030ca9a0f50bb49c3e51}{}unsigned int \hyperlink{class_route_ab9bea74aecfe030ca9a0f50bb49c3e51}{get\+Amount\+Items} () const \label{class_route_ab9bea74aecfe030ca9a0f50bb49c3e51}
+
+\begin{DoxyCompactList}\small\item\em вывод времени начала экскурсиооного объекта \end{DoxyCompactList}\item 
+\hypertarget{class_route_a11f4c59d213f85f0608f6ef33cef50c4}{}unsigned int \hyperlink{class_route_a11f4c59d213f85f0608f6ef33cef50c4}{get\+Duration} () const \label{class_route_a11f4c59d213f85f0608f6ef33cef50c4}
+
+\begin{DoxyCompactList}\small\item\em вывод количества экскурсиооных объектов \end{DoxyCompactList}\item 
+\hypertarget{class_route_a2687322060916cafbd3f5c848a0512ba}{}\hyperlink{class_route}{Route} \& \hyperlink{class_route_a2687322060916cafbd3f5c848a0512ba}{operator=} (const \hyperlink{class_route}{Route} \&route)\label{class_route_a2687322060916cafbd3f5c848a0512ba}
+
+\begin{DoxyCompactList}\small\item\em вывод продолжительности экскурсии \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_route_a94d3389e7e325aa8f7394d34db5a33e0}{}std\+::ostream \& \hyperlink{class_route_a94d3389e7e325aa8f7394d34db5a33e0}{operator$<$$<$} (std\+::ostream \&os, const \hyperlink{class_route}{Route} \&route)\label{class_route_a94d3389e7e325aa8f7394d34db5a33e0}
+
+\begin{DoxyCompactList}\small\item\em перегруженный оператор присваивания \end{DoxyCompactList}\item 
+\hypertarget{class_route_a48a68fb58c2b4902ca84058f33303c36}{}std\+::istream \& \hyperlink{class_route_a48a68fb58c2b4902ca84058f33303c36}{operator$>$$>$} (std\+::istream \&is, \hyperlink{class_route}{Route} \&route)\label{class_route_a48a68fb58c2b4902ca84058f33303c36}
+
+\begin{DoxyCompactList}\small\item\em перегруженный оператор вывода \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+route.\+h\end{DoxyCompactItemize}
